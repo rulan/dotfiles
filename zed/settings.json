@@ -1,0 +1,69 @@
+{
+  "buffer_font_weight": 400.0,
+  "ui_font_weight": 400.0,
+  "ui_font_family": "Google Sans Code NF",
+  "buffer_font_family": "Google Sans Code NF",
+  "buffer_line_height": "comfortable",
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  "buffer_font_features": {
+    "calt": true
+  },
+  "session": {
+    "trust_all_worktrees": true
+  },
+  "base_keymap": "JetBrains",
+  "icon_theme": {
+    "mode": "dark",
+    "light": "Zed (Default)",
+    "dark": "JetBrains Icons Dark"
+  },
+  "ui_font_size": 16,
+  "buffer_font_size": 15,
+  "theme": {
+    "mode": "dark",
+    "light": "Gruvbox Light",
+    "dark": "Rich Vesper"
+  },
+  "notification_panel": {
+    "dock": "left"
+  },
+  "outline_panel": {
+    "dock": "right"
+  },
+  "project_panel": {
+    "dock": "left"
+  },
+  "auto_install_extensions": {
+    "golangci-lint": true,
+    "html": true,
+    "java": true,
+    "sql": true,
+    "codebook-spell-checker": true,
+    "jetbrains-icons": true,
+    "rich-vesper": true
+  },
+  "languages": {
+    "Go": {
+      "tab_size": 4,
+      "hard_tabs": true,
+      "format_on_save": "on",
+      "formatter": "language_server"
+    }
+  },
+  "lsp": {
+    "gopls": {
+      "initialization_options": {
+        "usePlaceholders": true,
+        "completeUni mported": true,
+        "staticcheck": true,
+        "analyses": {
+          "unusedparams": true,
+          "shadow": true
+        }
+      }
+    }
+  }
+}
